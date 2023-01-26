@@ -17,7 +17,8 @@
 #pragma once
 
 #ifdef ENCODER_ENABLE
-#    define ENCODER_RESOLUTIONS { 2, 4 }
+#    define ENCODER_RESOLUTIONS { 2 }
+#    define ENCODER_RESOLUTIONS_RIGHT { 2 }
 #endif
 
 #ifdef RGBLIGHT_ENABLE
