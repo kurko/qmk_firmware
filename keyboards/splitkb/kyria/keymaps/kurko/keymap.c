@@ -188,16 +188,16 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
         if (get_highest_layer(layer_state) == 0) {
             // L/R arrows
             if (clockwise) {
-                tap_code(KC_RIGHT);
+                tap_code(KC_DOWN);
             } else {
-                tap_code(KC_LEFT);
+                tap_code(KC_UP);
             }
         } else if (get_highest_layer(layer_state) == 1) {
             // U/D arrows
             if (clockwise) {
-                tap_code(KC_DOWN);
+                tap_code(KC_RIGHT);
             } else {
-                tap_code(KC_UP);
+                tap_code(KC_LEFT);
             }
         } else if (get_highest_layer(layer_state) == 2) {
             // Page up/Page down

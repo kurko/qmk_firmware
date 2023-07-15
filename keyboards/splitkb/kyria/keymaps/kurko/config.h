@@ -31,3 +31,5 @@
 
 // Lets you roll mod-tap keys
 #define IGNORE_MOD_TAP_INTERRUPT
+// https://docs.qmk.fm/#/tap_hold?id=tapping-term
+#define TAPPING_TERM 120
